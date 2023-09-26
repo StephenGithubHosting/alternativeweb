@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Lato&family=Mooli&display=swap');
+$brightYellow : #ffc800d9;
+$darkYellow : #d5ac18c5;
+$brightGray : #f1f1f1;
+$darkGray : #ACACAC;
+.background{
+    position: fixed;
+    z-index: -10;
+    width: 100%;
+    .yellow, .white{
+        // position: fixed;
+        // height: 60px;
+        display: flex;
+        position: relative;
+        // left: -40px;
+        width: 100%;
+        opacity: 0.7;
+        h2{
+            margin-left: 15px;
+            white-space: nowrap;
+            font-family: 'Mooli';
+            color: $brightGray;
+            font-size: 13px;
+        }
+    }
+    .yellow{
+        background-color: $darkYellow;
+        *{
+            position: relative;
+            // left: -600px;
+        }
+    }
+    .white{
+        background-color: $brightYellow;
+    }
+    .yellow{
+        .resBox{
+            display: flex;
+            animation: goleft 20s linear infinite;
+        }
+    }
+    .white{
+        .resBox{
+            display: flex;
+            animation: goright 20s linear infinite;
+            position: relative;
+            right: 100%;
+        }
+    }
+}
+@keyframes goleft {
+    0%{
+        transform: translate(0%);
+    }
+    100%{
+        transform: translate(-50%);
+    }
+}
+
+@keyframes goright {
+    0% {
+        transform: translate(0%);
+    }
+
+    100% {
+        transform: translate(50%);
+    }
+}

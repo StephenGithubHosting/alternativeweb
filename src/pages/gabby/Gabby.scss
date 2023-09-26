@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Lato&family=Mooli&display=swap');
+$brightYellow : #ffc800d9;
+$darkYellow : #d5ac18;
+$brightGray : #f1f1f1;
+$darkGray : #ACACAC;
+@media screen and (max-width: 897px ) {
+    // body{
+    //     display: none;
+    // }
+    #leftside{
+        width: 70%;
+        justify-content: center;
+
+        align-items: center;
+    }
+        .main{
+            .flexContainer {
+                    flex-direction: column-reverse;
+            
+                    .leftSide {
+                        width: 100%;
+                        .about {
+                            .bio {
+                                p {
+                                    font-size: 19px;
+                                }
+                            }
+                        }
+                    }
+            
+                    .rightSide {
+                        .image {
+                            transform: scale(0.3);
+                        }
+                    }
+                }
+        }
+    
+    
+}
+
+@media screen and (max-width: 534px) {
+
+    // body{
+    //     display: none;
+    // }
+    #test{
+        font-size: 25px;
+    }
+    #leftside {
+        width: 70%;
+        justify-content: center;
+
+        align-items: center;
+    }
+
+    .main {
+        .flexContainer {
+            flex-direction: column-reverse;
+
+            .leftSide {
+                width: 100%;
+
+                .about {
+                    .bio {
+                        p {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+
+            .rightSide {
+                .image {
+                    transform: scale(0.3);
+                }
+            }
+        }
+    }
+
+
+}
+
+
+body{
+    margin: 0px;
+}
+
+.main{
+    margin: 0px;
+    .flexContainer{
+        display: flex;
+        align-items: center;
+        height: 92vh;
+        .leftSide{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Inclusive Sans';
+            .about{
+                padding: 20px;
+                border-radius: 10px;
+                width: 80%;
+                position: relative;
+                top:  30px;
+                // height: 300px;
+                background-color: $darkYellow;
+                .title{
+                    background-color: $brightYellow;
+                    color: white;
+                    border-radius: 10px;
+                    h1{
+                        padding: 10px 0px 10px 20px;
+                        font-size: 40px;
+                    }
+                }
+                .bio{
+                    color: $brightGray;
+                    font-size: 20px;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .rightSide{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .image{ 
+                position: fixed;
+                svg{
+                    width: 550px;
+                    position: fixed;
+                    position: fixed;
+                    transform: translate(-45%, -45%);
+                }
+                img{
+                    width: 260px;
+                    height: 270px;
+                    border-radius: 50px 30px 10px 20px;
+                    position: fixed;
+                    transform: translate(-50%, -50%);
+                    filter: saturate(40%);
+                }
+            }
+        }
+    }
+}
+
+
+
