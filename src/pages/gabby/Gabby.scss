@@ -34,9 +34,9 @@ $darkGray: #acacac;
 
       .rightSide {
         .image {
-          transform: scale(0.3);
+          transform: scale(0.2);
           position: relative;
-          right: 100px;
+        //   right: 100px;
         
           
         }
@@ -119,8 +119,11 @@ body {
         }
         .bio {
           color: $brightGray;
-          font-size: 20px;
+          font-size: 10px;
           margin-bottom: 30px;
+          p{
+            font-size: 10px;
+          }
         }
       }
     }
