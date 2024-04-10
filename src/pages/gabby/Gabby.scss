@@ -19,9 +19,14 @@ $darkGray: #acacac;
       .leftSide {
         width: 100%;
         .about {
+            .title{
+                #test{
+                    font-size: 15px;
+                }
+            }
           .bio {
             p {
-              font-size: 17px;
+              font-size: 10px;
             }
           }
         }
@@ -29,8 +34,10 @@ $darkGray: #acacac;
 
       .rightSide {
         .image {
-          transform: scale(0.6);
+          transform: scale(0.3);
           position: relative;
+          right: 100px;
+        
           
         }
       }
