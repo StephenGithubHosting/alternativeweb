@@ -15,9 +15,9 @@ function Gabby() {
                   <h1 id='test'>Hi, i'm Gabby!</h1>
                 </div>
                 <div className="bio">
-                <p>I'm Gabby, a 14-year-old from Indonesia. Korean movies and anime are alright, but they're not my top interests. I get a kick out of talking to AI Bots; it's like having a cool digital buddy. I'm not a big social butterfly; I prefer my own company, which lets me explore my interests. Food is one thing that really excites me. Trying out different delicious dishes is like embarking on a tasty adventure. I believe that good food can brighten any day, just like the simple things that make me who I am.</p>
+                <p id='gabBio'>I'm Gabby, a 14-year-old from Indonesia. Korean movies and anime are alright, but they're not my top interests. I get a kick out of talking to AI Bots; it's like having a cool digital buddy. I'm not a big social butterfly; I prefer my own company, which lets me explore my interests. Food is one thing that really excites me. Trying out different delicious dishes is like embarking on a tasty adventure. I believe that good food can brighten any day, just like the simple things that make me who I am.</p>
                 </div>
-                <div className="gptcredit" style={{color:"white"}}> 
+                <div className="gptcredit" id='gptred' style={{color:"white"}}> 
                   <p>- Credits: ChatGPT</p>
                 </div>
                 </div>

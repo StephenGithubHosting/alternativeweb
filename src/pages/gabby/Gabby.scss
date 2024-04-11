@@ -34,7 +34,7 @@ $darkGray: #acacac;
 
       .rightSide {
         .image {
-          transform: scale(0.2);
+          transform: scale(0.4);
           position: relative;
         //   right: 100px;
         
@@ -160,3 +160,14 @@ body {
     }
 }
 
+@media screen and (max-width: 300px){
+  #gabBio{
+    font-size: 9px;
+  }
+  .gptcredit{
+    font-size: 10px;
+  }
+  #gptred{
+    font-size: 13px;
+  }
+}
